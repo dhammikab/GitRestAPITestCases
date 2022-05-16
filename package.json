@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/dhammikab/GitRestAPITestCases/issues"
   },
-  "homepage": "https://github.com/dhammikab/GitRestAPITestCases#readme"
+  "homepage": "https://github.com/dhammikab/GitRestAPITestCases#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "retry-axios": "^3.0.0"
+  }
 }

@@ -1,11 +1,12 @@
+import fs from 'fs';
 
 function createDataForPagination_test(fileCount) {
 
-var fs = require('fs');
+//var fs = require('fs');
 let file = 1
 
 while (file < fileCount) {
-    fs.appendFile(`./pagination_test/${file}.txt`, `This is the content in file ${file}.txt` , function (err) {
+    fs.appendFile(`./pagination_test/${file}.txt`, `\n new content This is the content in file ${file}.txt` , function (err) {
       if (err) throw err;
       console.log('Saved!');
     }); 

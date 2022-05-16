@@ -1,1 +1,2 @@
 This is the content in file 10.txt
+ new content This is the content in file 10.txt

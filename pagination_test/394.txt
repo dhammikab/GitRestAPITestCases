@@ -1,1 +1,2 @@
 This is the content in file 394.txt
+ new content This is the content in file 394.txt
