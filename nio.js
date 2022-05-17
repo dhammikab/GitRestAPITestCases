@@ -1,14 +1,14 @@
 import * as rax from 'retry-axios';
 import axios from 'axios';
 
-/*
+
 
 const interceptorId = rax.attach();
 const res = await axios({
-  url: 'https://api.github.com/repos/dhammikab/GitRestAPITestCases/compare/master..88f78fa',
+  url: 'https://api.github.com/repos/dhammikab/GitRestAPITestCases/compare/b1ddb02...803575fc',
   raxConfig: {
     // Retry 3 times on requests that return a response (500, etc) before giving up.  Defaults to 3.
-    retry: 3,
+    retry: 0,
 
     // Retry twice on errors that don't return a response (ENOTFOUND, ETIMEDOUT, etc).
     // 'noResponseRetries' is limited by the 'retry' value.
@@ -45,14 +45,14 @@ const res = await axios({
 
 console.log(res)
 
-*/
 
+/*
 
 async function makeRequest() {
 
     const config = {
         method: 'get',
-        url: 'https://api.github.com/repos/dhammikab/GitRestAPITestCases/compare/88f78fa...409a0cc'
+        url: 'https://api.github.com/repos/dhammikab/GitRestAPITestCases/compare/b1ddb02...803575fc'
     }
 
     let res = await axios(config)
@@ -61,3 +61,5 @@ async function makeRequest() {
 }
 
 await makeRequest();
+
+*/
