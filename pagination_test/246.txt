@@ -1,2 +1,3 @@
 This is the content in file 246.txt
  new content This is the content in file 246.txt
+ new content This is the content in file 246.txt

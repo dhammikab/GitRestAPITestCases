@@ -1,2 +1,3 @@
 This is the content in file 392.txt
  new content This is the content in file 392.txt
+ new content This is the content in file 392.txt
