@@ -52,12 +52,12 @@ async function makeRequest() {
 
     const config = {
         method: 'get',
-        url: 'https://api.github.com/repos/dhammikab/GitRestAPITestCases/compare/main..88f78fa'
+        url: 'https://api.github.com/repos/dhammikab/GitRestAPITestCases/compare/88f78fa...409a0cc'
     }
 
     let res = await axios(config)
 
-    console.log(res.status);
+    console.log(res.data);
 }
 
 await makeRequest();
